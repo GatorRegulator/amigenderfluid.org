@@ -1,7 +1,11 @@
 // pages/index.tsx
 'use client';
 
+// pages/index.tsx
+'use client';
+
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const Home: React.FC = () => {
   const [showMore, setShowMore] = useState<boolean>(false);
@@ -20,7 +24,7 @@ const Home: React.FC = () => {
           style={{
             fontWeight: "bold",
             fontSize: "72pt",
-            marginBottom: "80px",
+            marginBottom: "40px",
           }}
         >
           yes.
@@ -47,6 +51,13 @@ const Home: React.FC = () => {
             </a><br />
           </p>
         </div>
+      <p style={{ fontSize: "13pt", marginBottom: "40px" }}>
+          Not sure this is correct? How would you feel if it looked like this:{" "}
+          <Link href="/no">
+            <a style={{ textDecoration: "underline", color: "#0070f3" }}>here</a>
+          </Link>
+          .
+        </p>
       )}
     </div>
   );
