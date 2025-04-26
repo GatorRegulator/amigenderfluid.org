@@ -20,7 +20,7 @@ const NoPage: React.FC = () => {
         <p>
           Maybe here:{" "}
           <Link href="/">
-            <a style={{ textDecoration: "underline", color: "#0070f3" }}></a>
+            <a style={{ textDecoration: "underline", color: "#0070f3" }}>Try Again</a>
           </Link>
         </p>
       </div>
