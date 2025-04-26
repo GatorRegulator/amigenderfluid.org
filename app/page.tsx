@@ -1,4 +1,6 @@
 // pages/index.tsx
+'use client';
+
 import { useEffect, useState } from "react";
 
 const Home: React.FC = () => {
