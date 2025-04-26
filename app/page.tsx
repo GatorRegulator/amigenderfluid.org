@@ -46,15 +46,15 @@ const Home: React.FC = () => {
               <b>&ldquo;Gender-fluid Definitions and Insights&rdquo;</b> by UCSF LGBTQIA+ Resource Center
             </a><br />
           </p>
+          <p style={{ fontSize: "13pt", marginBottom: "40px" }}>
+            Not sure this is correct? How would you feel if it looked like this:{" "}
+            <Link href="/no">
+              <span style={{ textDecoration: "underline", color: "#0070f3" }}>here</span>
+            </Link>
+            .
+          </p>
         </div>
       )}
-      <p style={{ fontSize: "13pt", marginBottom: "40px" }}>
-        Not sure this is correct? How would you feel if it looked like this:{" "}
-        <Link href="/no">
-          <span style={{ textDecoration: "underline", color: "#0070f3" }}>here</span>
-        </Link>
-        .
-      </p>
     </div>
   );
 };
